@@ -70,4 +70,26 @@ techhub/
 ├── views/        # Archivos de presentación (HTML/PHP)
 └── techhub_db.sql # Script de la base de datos
 
+Endpoints y Funciones Principales
+
+1. Gestión de Catálogo e Inventario
+ProductoController::index(): Función principal que solicita todos los productos al modelo y los envía a la vista del catálogo.
+
+Producto::obtenerTodos(): Consulta SQL que trae nombre, precio, imagen y stock actual.
+
+Producto::descontarStock($id, $cantidad): Función crítica que resta las unidades de la base de datos cuando una compra se completa con éxito.
+
+2. Sistema de Carrito (AJAX)
+public/carrito_ajax.php: El endpoint que recibe las peticiones en segundo plano para agregar productos sin que la página se refresque.
+
+carrito_add.php: Procesa la lógica de verificar si el producto ya está en la sesión y suma las cantidades.
+
+3. Autenticación y Usuarios
+login_action.php: Valida las credenciales del usuario contra la tabla usuarios e inicia la $_SESSION.
+
+registro_action.php: Endpoint encargado de recibir los datos del nuevo cliente (incluyendo la dirección de envío) y guardarlos de forma permanente.
+
+4. Flujo de Pago
+pago.php: Endpoint que simula la pasarela de pago y, tras los 5 segundos de espera, dispara la creación de la orden en la base de datos.
+
 AUTORA: ALEJANDRA PRIETO - Desarrollo Full Stack - alejandradev00
