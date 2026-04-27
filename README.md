@@ -25,7 +25,7 @@ graph TD
     DB -->|Retorna Datos| Model
     Model -->|Retorna Objetos/Arrays| Controller
     Controller -->|Carga| View[Vista: catalogo.php]
-    View -->|Renderiza HTML/CSS| Usuario```
+    View -->|Renderiza HTML/CSS| Usuario ```
 
 ## Requisitos del Entorno
 Para ejecutar esta aplicación en un entorno local controlado:
