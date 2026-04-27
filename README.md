@@ -13,6 +13,19 @@ Este proyecto es una aplicación web dinámica que implementa un flujo completo 
 - **Simulación de Pago:** Proceso de validación de compra con feedback visual (5 segundos).
 - **Historial de Órdenes:** Generación de códigos únicos de pedido y guardado en base de datos.
 
+- ## Diagrama de Arquitectura
+El proyecto utiliza el patrón **MVC (Model-View-Controller)** para separar la lógica de negocio de la interfaz de usuario:
+
+```mermaid
+graph TD
+    A[Usuario] -->|Petición| B[Controlador]
+    B -->|Consulta| C[Modelo]
+    C -->|Datos| D[(Base de Datos)]
+    D -->|Respuesta| C
+    C -->|Datos procesados| B
+    B -->|Envía datos| E[Vista]
+    E -->|HTML/CSS final| A
+
 ---
 
 ## Requisitos del Entorno
