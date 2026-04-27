@@ -70,6 +70,8 @@ techhub/
 ├── views/        # Archivos de presentación (HTML/PHP)
 └── techhub_db.sql # Script de la base de datos
 
+---
+
 Endpoints y Funciones Principales
 
 1. Gestión de Catálogo e Inventario
