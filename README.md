@@ -69,7 +69,7 @@ techhub/
 ├── public/       # Archivos de acceso público (index, CSS, JS, Imágenes)
 ├── views/        # Archivos de presentación (HTML/PHP)
 └── techhub_db.sql # Script de la base de datos
-
+```
 ---
 
 Endpoints y Funciones Principales
