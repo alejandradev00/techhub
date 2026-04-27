@@ -1,4 +1,4 @@
-TechHub Store ✨🌸
+TechHub Store
 **E-commerce de tecnología con estética Kawaii desarrollado en PHP.**
 
 Este proyecto es una aplicación web dinámica que implementa un flujo completo de compras, desde el registro de usuarios hasta la confirmación de pedidos, utilizando una arquitectura MVC **(Modelo-Vista-Controlador)** simplificada.
@@ -64,7 +64,7 @@ Siga estos pasos para desplegar el proyecto localmente:
 
 ---
 
-## 📂 Estructura del Proyecto
+## Estructura del Proyecto
 ```text
 techhub/
 ├── app/          # Lógica de negocio (Controladores, Modelos y Core)
