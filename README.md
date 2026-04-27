@@ -60,6 +60,8 @@ Siga estos pasos para desplegar el proyecto localmente:
    Abra el navegador y entra a:
    `http://localhost/techhub/public/index.php`
 
+**NOTA ANEXA: El archivo techhub_db.sql incluye tanto el script de creación de tablas (DDL) como la inserción de datos maestros (DML) para que la tienda sea funcional desde el primer momento.**   
+
 ---
 
 ## 📂 Estructura del Proyecto
