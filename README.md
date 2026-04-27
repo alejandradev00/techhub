@@ -13,7 +13,7 @@ Este proyecto es una aplicación web dinámica que implementa un flujo completo 
 - **Simulación de Pago:** Proceso de validación de compra con feedback visual (5 segundos).
 - **Historial de Órdenes:** Generación de códigos únicos de pedido y guardado en base de datos.
 
-## Arquitectura del Sistema (MVC)
+## 📐 Arquitectura del Sistema (MVC)
 
 El proyecto sigue el patrón de diseño **Modelo-Vista-Controlador**, lo que permite una separación clara entre la lógica de datos, la interfaz y el control de procesos.
 
@@ -26,8 +26,6 @@ graph TD
     Model -->|Retorna Objetos/Arrays| Controller
     Controller -->|Carga| View[Vista: catalogo.php]
     View -->|Renderiza HTML/CSS| Usuario
-
----
 
 ## Requisitos del Entorno
 Para ejecutar esta aplicación en un entorno local controlado:
